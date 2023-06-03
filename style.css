@@ -1,0 +1,63 @@
+
+body{
+    background-color: rgb(22, 22, 22);
+    margin: 0;
+}
+
+.header{
+  background-color: grey;
+  margin: 10px;
+  height: 50px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.gridContainer{
+  width: 96%;
+  margin: 10px;
+  background-color: grey;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.gridHeader{
+  text-align: center;
+  font-weight: bold;
+}
+
+.grid {
+    margin: 10px;
+    width: fit-content;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 1px solid black;      
+  }
+  
+  .cell {
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+    height: 50px;
+    width: 50px;
+    background-color: #999;
+    display: flex;
+  }
+
+  .inputBox{
+    border: transparent;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    background: transparent;
+  }
+
+  .buttonDiv {
+    background-color: grey;
+    margin: 10px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 10px;
+
+  }

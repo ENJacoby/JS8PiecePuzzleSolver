@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> 8 Piece Puzzle Solver </title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+    <script src ="App.js"></script>
+</head>
+<body>
+    <div class = 'header'>
+    <h1> 8 Piece Puzzle Solver </h1>
+    </div>
+
+    <div class = "gridContainer">
+        <div class = "wrapper">
+            <div class = "gridHeader"> Unsolved </div>
+                <div class="grid" id = "unSolved">
+                    <div class="cell">
+                        <input class = "inputBox" id = "uslot1" type="text"> 
+                    </div>
+                    <div class="cell">
+                        <input class = "inputBox" id = "uslot2" type="text"> 
+                    </div>
+                    <div class="cell">
+                        <input class = "inputBox" id = "uslot3" type="text"> 
+                    </div>
+                    <div class="cell" >
+                        <input class = "inputBox" id = "uslot4" type="text"> 
+                    </div>
+                    <div class="cell">
+                        <input class = "inputBox" id = "uslot5" type="text"> 
+                    </div>
+                    <div class="cell" >
+                        <input class = "inputBox" id = "uslot6" type="text"> 
+                    </div>
+                    <div class="cell">
+                        <input class = "inputBox" id = "uslot7" type="text"> 
+                    </div>
+                    <div class="cell" >
+                        <input class = "inputBox" id = "uslot8" type="text"> 
+                    </div>
+                    <div class="cell">
+                        <input class = "inputBox" id = "uslot9" type="text"> 
+                    </div>
+                </div>
+            </div>
+            
+        <div class = "wrapper">
+            <div class = "gridHeader"> Solution </div>
+                <div class="grid" id = "solution">
+                    <div class="cell">
+                        <input class = "inputBox" id = "slot1" type="text"> 
+                    </div>
+                    <div class="cell">
+                        <input class = "inputBox" id = "slot2" type="text"> 
+                    </div>
+                    <div class="cell">
+                        <input class = "inputBox" id = "slot3" type="text"> 
+                    </div>
+                    <div class="cell" >
+                        <input class = "inputBox" id = "slot4" type="text"> 
+                    </div>
+                    <div class="cell">
+                        <input class = "inputBox" id = "slot5" type="text"> 
+                    </div>
+                    <div class="cell" >
+                        <input class = "inputBox" id = "slot6" type="text"> 
+                    </div>
+                    <div class="cell">
+                        <input class = "inputBox" id = "slot7" type="text"> 
+                    </div>
+                    <div class="cell" >
+                        <input class = "inputBox" id = "slot8" type="text"> 
+                    </div>
+                    <div class="cell">
+                        <input class = "inputBox" id = "slot9" type="text"> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class = "buttonDiv"> 
+        <button type="button" onclick="solvePuzzle()"> Solve Puzzle </button>
+
+    </div>
+
+    <div id = "output">
+        
+    </div>
+</body>
+
+</html>
